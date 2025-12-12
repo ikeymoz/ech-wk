@@ -383,7 +383,13 @@ $env:HTTPS_PROXY="socks5://127.0.0.1:30001"
 ### 图形化推荐
 https://github.com/SunshineList/luci-app-ech-workers
 ### OpenWrt 部署
+### 一键脚本
+```bash
 
+wget https://raw.githubusercontent.com/byJoey/ech-wk/refs/heads/main/softrouter.sh
+chmod +x softrouter.sh
+./softrouter.sh
+```
 #### 1. 上传文件
 
 ```bash
